@@ -112,3 +112,5 @@ wrapt==1.15.0
 zipp==3.6.0
 
 % 가상환경 패키지 목록 저장하는 방법 : pip freeze > 파일명.txt
+
+% 패키지 목록 txt 파일 위치 : C:\Users\hji10\anaconda3\python_package_list\inbody_coding_test

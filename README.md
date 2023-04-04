@@ -10,3 +10,4 @@ Python 문법 공부 및 실습
 #### 참고사항
 - 파이썬 개발환경 : python_environment.txt 확인
 - 문법 관련 참고서적 : '점프 투 파이썬' 위키독스
+&larr; https://wikidocs.net/book/1

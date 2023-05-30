@@ -44,3 +44,15 @@ print(str_arr_split)
 
 str_arr_split = sorted(str_arr.split(), key=str.lower)     # 대소문자 구분하지 않고 정렬
 print(str_arr_split)
+
+# 2차원
+# 리스트 정렬 시 key로 사용할 수 있는 lambda
+a = [(1, 2), (5, 1), (0, 1), (5, 2), (3, 0)]
+b = sorted(a)           # key 안 넣고 sort() 또는 sorted() 사용 시 0열 기준으로 정렬
+print(b)
+
+c = sorted(a, key = lambda x : x[1])                # key 인자에 함수를 넘겨주면 우선순위가 정해짐
+d = sorted(a, key=lambda x: x[1], reverse=True)     # 여기서는 1열 기준으로 정렬
+
+e = sorted(a, key = lambda x : (x[0], -x[1]))       # 우선순위 : 0열 오름차순 -> 1열 내림차순
+f = sorted(a, key = lambda x : -x[0])               # 0열 내림차순으로 정렬

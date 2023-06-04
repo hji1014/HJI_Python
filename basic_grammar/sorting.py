@@ -56,3 +56,11 @@ d = sorted(a, key=lambda x: x[1], reverse=True)     # 여기서는 1열 기준�
 
 e = sorted(a, key = lambda x : (x[0], -x[1]))       # 우선순위 : 0열 오름차순 -> 1열 내림차순
 f = sorted(a, key = lambda x : -x[0])               # 0열 내림차순으로 정렬
+
+# dictionary 자료형 sorting 방법
+a = {'1' : 0.23, '2' : 0.5, '3' : 0.23}
+a_sorted = sorted(a)                        # 이렇게 a를 통째로 넣으면 key를 기준으로 정렬하여 list가 생성됨
+a_sorted = sorted(a, reverse=True)
+
+b_sorted = sorted(a.items(), key=lambda x : x[1])                   # items() 함수를 쓰면 key와 value 중에 고른 것을 기준으로 sorting 함
+b_sorted = sorted(a.items(), key=lambda x : x[1], reverse=True)     # reverse로 오름/내림차순 정할 수 있고, key는 같은 값일 때 오름차순으로 정렬됨

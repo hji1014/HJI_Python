@@ -22,3 +22,8 @@ import itertools
 a = [1, 2, 3, 4]
 for i in itertools.combinations(a, 3):      # combinations(a, 3) -> 4C3
     print(i)
+
+"""
+리스트로 구현
+ref: https://cotak.tistory.com/70
+"""

@@ -1,6 +1,6 @@
 """
 
-[class 총정리] ->
+[class 총정리]
 
 ref : https://ybworld.tistory.com/20, https://kingnamji.tistory.com/6
 
